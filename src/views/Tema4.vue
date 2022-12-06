@@ -8,7 +8,7 @@
       h1 <em>Relative clauses</em> (Cláusulas relativas)
     
     .row  
-      .col-lg-2
+      .col-lg-2.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema4/1.svg", alt="alt")
       .col-lg-10
@@ -19,7 +19,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row  
-      .col-lg-10.d-flex.align-items-center
+      .col-lg-10.d-flex.align-items-center.mb-3.mb-lg-0
         p.colr.mb-0 <em>Now, we keep on understanding the topic, and there are two types of relative clauses that depend on what type of information is provided. They can be defining or non-defining clauses. Let’s see what they refer to: </em>
           span.colr_1 / Ahora, seguimos entendiendo el tema, y hay dos tipos de oraciones relativas que dependen de qué tipo de información se proporciona. Pueden ser cláusulas definitorias o no definitorias. Veamos a qué se refieren:
       .col-lg-2
@@ -116,7 +116,7 @@
     .row
       .col-lg-3
         figure.d-flex.justify-content-center.mb-3.mt-3
-          img.w-auto(src="@/assets/curso/tema4/9.svg", alt="alt")
+          img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema4/9.svg", alt="alt")
       .col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bgr_7")
           .row(titulo="<em>Who</em>").tarjeta.bgr.p-4
@@ -216,12 +216,12 @@
         .col-lg-5
           TraduccionT.color-acento-botones(:dialogo="dialogo5")(data-aos="flip-up")
           figure.d-flex.justify-content-center
-            img.w-auto(src="@/assets/curso/tema4/14.svg", alt="alt")
+            img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema4/14.svg", alt="alt")
         .col-lg-7
            SlyderF.mb-5(columnas="col-xl-12")
             .tarjeta.bgr_6.p-4
               .row.justify-content-center.mb-3
-                .col-lg-3
+                .col-3
                   img(src='@/assets/curso/tema4/15.svg' alt='AvatarTop')
               h4.text-center.colr.text-bold <em>When</em>
               p.text-center.colr <em>This adverb refers to time.</em>
@@ -245,7 +245,7 @@
                   p 2008, cuando se produjo la crisis, fue el peor año para la empresa. 
             .tarjeta.bgr_6.p-4
               .row.justify-content-center.mb-3
-                .col-lg-3
+                .col-3
                   img(src='@/assets/curso/tema4/16.svg' alt='AvatarTop')
               h4.text-center.colr.text-bold <em>Where</em>
               p.text-center.colr <em>This adverb refers to location.</em>
@@ -269,7 +269,7 @@
                   p El edificio donde trabajo tiene más de 15 pisos. 
             .tarjeta.bgr_6.p-4
               .row.justify-content-center.mb-3
-                .col-lg-3
+                .col-3
                   img(src='@/assets/curso/tema4/17.svg' alt='AvatarTop')
               h4.text-center.colr.text-bold <em>Why</em>
               p.text-center.colr <em>This adverb refers to reasons.</em>

@@ -8,7 +8,7 @@
       h1 <em>Past simple vs. past perfect</em> (pasado simple vs. pasado perfecto)
     
     .row.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/1.png", alt="alt")
       .col-lg-8
@@ -21,11 +21,11 @@
         TraduccionT.color-acento-botones(:dialogo="dialogo2")(data-aos="flip-up")
       .col-lg-4(data-aos="fade-right")
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema1/2.png", alt="alt")
+          img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema1/2.png", alt="alt")
     
     .bg_grad-02
       .row.mb-5.justify-content-center
-        .col-lg-4
+        .col-lg-4.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/3.svg", alt="alt") 
         .col-lg-6
@@ -57,7 +57,7 @@
     .bgr_3
       .row.mb-5.mt-5.justify-content-center.p-5
         p.text-center <em>Irregular verbs</em> / Verbos irregulares
-        .col-lg-5
+        .col-xl-5.mb-3
           TarjetaAudio.color-primario.bgr_2.mb-3(
             texto="Description: Irregular verbs don’t follow any rule; they all appear in a list: the irregular verb list:"
             :audio="require('@/assets/componentes/audios/tema1/3.mp3')"
@@ -75,7 +75,7 @@
                   p <b>Anexo</b>. List of 616 English Irregular Verbs
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/5.png", alt="alt")
-        .col-lg-4
+        .col-xl-4
           table
             tr.bgr_4.text-center
               td 
@@ -249,7 +249,7 @@
 
     .bg_grad-05
       .row.mb-5.mt-5.justify-content-center
-        .col-lg-4
+        .col-lg-4.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/10.svg", alt="alt") 
         .col-lg-6
@@ -321,7 +321,7 @@
         TraduccionT.color-acento-botones(:dialogo="dialogo4")(data-aos="flip-up")
       .col-lg-4(data-aos="fade-right")
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema1/17.png", alt="alt")
+          img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema1/17.png", alt="alt")
     
     .bg_grad-07
       .row.mb-5

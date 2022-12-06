@@ -20,7 +20,7 @@
       h2 5.1 <em>Subject</em> (Sujeto)
     
     .row.mb-5
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema5/2.svg", alt="alt")
       .col-lg-9
@@ -30,7 +30,7 @@
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta.bgr_8.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-lg-5
+            .col-5
                 img(src='@/assets/curso/tema5/10.svg' alt='AvatarTop')
           p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
           p.text-center <em>I</em>
@@ -46,7 +46,7 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         .tarjeta.bgr_8.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-lg-5
+            .col-5
                 img(src='@/assets/curso/tema5/4.svg' alt='AvatarTop')
           p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
           p.text-center <em>YOU</em>
@@ -62,7 +62,7 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         .tarjeta.bgr_8.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-lg-5
+            .col-5
                 img(src='@/assets/curso/tema5/5.svg' alt='AvatarTop')
           p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
           p.text-center <em>SHE</em>
@@ -78,7 +78,7 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         .tarjeta.bgr_8.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-lg-5
+            .col-5
                 img(src='@/assets/curso/tema5/6.svg' alt='AvatarTop')
           p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
           p.text-center <em>HE</em>
@@ -94,7 +94,7 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         .tarjeta.bgr_8.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-lg-5
+            .col-5
                 img(src='@/assets/curso/tema5/7.svg' alt='AvatarTop')
           p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
           p.text-center <em>IT</em>
@@ -110,7 +110,7 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         .tarjeta.bgr_8.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-lg-5
+            .col-5
                 img(src='@/assets/curso/tema5/8.svg' alt='AvatarTop')
           p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
           p.text-center <em>WE</em>
@@ -126,7 +126,7 @@
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         .tarjeta.bgr_8.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-lg-5
+            .col-5
                 img(src='@/assets/curso/tema5/9.svg' alt='AvatarTop')
           p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
           p.text-center <em>THEY</em>
@@ -155,7 +155,7 @@
             SlyderF(columnas="col-lg-6 col-xl-6")
               .tarjeta.bgr_6.p-4.h-100
                 .row.justify-content-center.mb-3
-                  .col-lg-5
+                  .col-5
                       img(src='@/assets/curso/tema5/10.svg' alt='AvatarTop')
                 p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
                 p.text-center <em>ME</em>
@@ -171,7 +171,7 @@
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .tarjeta.bgr_6.p-4.h-100
                 .row.justify-content-center.mb-3
-                  .col-lg-5
+                  .col-5
                       img(src='@/assets/curso/tema5/11.svg' alt='AvatarTop')
                 p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
                 p.text-center <em>YOU</em>
@@ -187,7 +187,7 @@
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .tarjeta.bgr_6.p-4.h-100
                 .row.justify-content-center.mb-3
-                  .col-lg-5
+                  .col-5
                       img(src='@/assets/curso/tema5/12.svg' alt='AvatarTop')
                 p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
                 p.text-center <em>HER</em>
@@ -203,7 +203,7 @@
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .tarjeta.bgr_6.p-4.h-100
                 .row.justify-content-center.mb-3
-                  .col-lg-5
+                  .col-5
                       img(src='@/assets/curso/tema5/13.svg' alt='AvatarTop')
                 p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
                 p.text-center <em>HIM</em>
@@ -219,7 +219,7 @@
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .tarjeta.bgr_6.p-4.h-100
                 .row.justify-content-center.mb-3
-                  .col-lg-5
+                  .col-5
                       img(src='@/assets/curso/tema5/14.svg' alt='AvatarTop')
                 p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
                 p.text-center <em>IT</em>
@@ -235,7 +235,7 @@
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .tarjeta.bgr_6.p-4.h-100
                 .row.justify-content-center.mb-3
-                  .col-lg-5
+                  .col-5
                       img(src='@/assets/curso/tema5/15.svg' alt='AvatarTop')
                 p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
                 p.text-center <em>US</em>
@@ -251,7 +251,7 @@
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .tarjeta.bgr_6.p-4.h-100
                 .row.justify-content-center.mb-3
-                  .col-lg-5
+                  .col-5
                       img(src='@/assets/curso/tema5/16.svg' alt='AvatarTop')
                 p.text-center.colr.text-bold.mb-0 <em>PRONOUN</em>
                 p.text-center <em>THEM</em>

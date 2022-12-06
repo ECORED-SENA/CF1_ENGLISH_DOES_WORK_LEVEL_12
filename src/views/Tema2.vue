@@ -8,7 +8,7 @@
       h1 <em>Third conditional</em> (Tercer condicional)
     
     .row.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/1.png", alt="alt")
       .col-lg-8
@@ -33,8 +33,8 @@
               img.w-auto(src="@/assets/curso/tema2/3.svg", alt="alt")
           .col-lg-9
             .row.mb-3
-              .col-lg-1.mt-3
-                Audio.color-acento-botones.mx-3(
+              .col-lg-1.mt-3.mb-3.mb-lg-0
+                Audio.color-acento-botones.mx-lg-3.m-auto(
                 :audio="require('@/assets/componentes/audios/tema2/1.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )
@@ -80,8 +80,8 @@
             img.w-auto(src="@/assets/curso/tema2/6.svg", alt="alt")
         .col-lg-9
           .row.mb-3
-            .col-lg-1.mt-3
-              Audio.color-acento-botones.mx-3(
+            .col-lg-1.mt-3.mb-3.mb-lg-0
+              Audio.color-acento-botones.mx-lg-3.m-auto(
               :audio="require('@/assets/componentes/audios/tema2/4.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
@@ -120,7 +120,7 @@
 
       .tarjeta.bgr.p-4.mb-5
         .row
-          .col-lg-3
+          .col-lg-3.mb-3.mb-lg-0
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema2/9.svg", alt="alt")
           .col-lg-9
@@ -129,8 +129,8 @@
             p.text-center.colr <em>There is another way of writing these sentences, let’s see it. </em>
               span.colr_1 / Hay otra forma de escribir estas oraciones, veámosla.
             .row.mb-3
-              .col-lg-1.mt-3
-                Audio.color-acento-botones.mx-3(
+              .col-lg-1.mt-3.mb-3.mb-lg-0
+                Audio.color-acento-botones.mx-lg-3.m-auto(
                 :audio="require('@/assets/componentes/audios/tema2/7.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
               )

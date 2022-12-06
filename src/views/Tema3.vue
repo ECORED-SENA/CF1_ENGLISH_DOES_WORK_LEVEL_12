@@ -12,7 +12,7 @@
     .row
       .col-lg-4
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema3/1.svg", alt="alt")
+          img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema3/1.svg", alt="alt")
       .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bgr_7")
           .row(titulo="<em>Can</em>")
@@ -218,7 +218,7 @@
               p George necesita quedarse en el trabajo para terminar sus tareas.   
       .col-lg-4
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema3/2.svg", alt="alt")
+          img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema3/2.svg", alt="alt")
     
     p.colr <em>After seeing different examples, it’s time for you to practice what we have learned so far. Complete the following conversation using the modal verbs we just worked on. </em>
       span.colr_1 / Después de diferentes ejemplos, es hora de que practique lo que hemos aprendido hasta ahora. Complete la siguiente conversación utilizando los verbos modales con los que acabamos de trabajar.

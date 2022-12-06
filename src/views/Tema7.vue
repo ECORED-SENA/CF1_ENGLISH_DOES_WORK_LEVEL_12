@@ -12,13 +12,13 @@
         .col-lg-4
           TraduccionT.color-acento-botones(:dialogo="dialogo1")(data-aos="flip-up")
         .col-lg-8
-          SlyderE(indicadores="derecha").tarjeta.bgr.p-4
+          SlyderE(indicadores="derecha").tarjeta.bgr.p-4.mb-3.mb-lg-0
             div
               p.colr.text-bold <em>On the whole and generally speaking</em> (En general)
               p.colr <em>We use these expressions to imply that what you are saying is a general truth. Something everybody knows or thinks that is true. </em>
                 span.colr_1 / Utilizamos estas expresiones para dar a entender que lo que se dice es una verdad general. Algo que todo el mundo sabe o piensa que es cierto.
               .row
-                .col-lg-3
+                .col-lg-3.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema7/1.svg", alt="alt")
                 .col-lg-9
@@ -34,7 +34,7 @@
               p.colr <em>This expression is used to introduce an idea that is considered as good not in general, but from the utterer’s point of view. </em>
                 span.colr_1 / Esta expresión se utiliza para introducir una idea que se considera buena no en general, sino desde el punto de vista del emisor.
               .row
-                .col-lg-3
+                .col-lg-3.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema7/2.svg", alt="alt")
                 .col-lg-9
@@ -50,7 +50,7 @@
               p.colr <em>This expression is used to talk about something that happens most of the time. </em>
                 span.colr_1 / Esta expresión se utiliza para hablar de algo que ocurre la mayoría de las veces. 
               .row
-                .col-lg-3
+                .col-lg-3.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema7/3.svg", alt="alt")
                 .col-lg-9

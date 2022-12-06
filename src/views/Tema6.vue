@@ -15,34 +15,34 @@
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema6/1.svg", alt="alt")
       
-      .row.mb-5
-        .col-lg-2.bgr_9.p-4.d-flex.align-items-center
+      .row.mb-5.justify-content-center
+        .col-md-10.col-lg-2.bgr_9.p-4.d-flex.align-items-center.justify-content-center.mb-3.mb-lg-0
           .text-center
             p.text-bold <em>Base form / Imperative: Go</em>
             p Forma base / Imperativo: <em>Go</em>
-        .col-lg-2.bgr_10.p-4.d-flex.align-items-center
+        .col-md-10.col-lg-2.bgr_10.p-4.d-flex.align-items-center.justify-content-center.mb-3.mb-lg-0
           .text-center
             p.text-bold <em>Third person in present: Goes</em>
             p Tercera persona en presente: <em>Goes</em>
-        .col-lg-2.bgr_10.p-4.d-flex.align-items-center
+        .col-md-10.col-lg-2.bgr_10.p-4.d-flex.align-items-center.justify-content-center.mb-3.mb-lg-0
           .text-center
             p.text-bold <em>Infinitive: To go</em>
             p Infinitivo: <em>To go</em>
-        .col-lg-2.bgr_10.p-4.d-flex.align-items-center
+        .col-md-10.col-lg-2.bgr_10.p-4.d-flex.align-items-center.justify-content-center.mb-3.mb-lg-0
           .text-center
             p.text-bold <em>Past tense: Went</em>
             p Tiempo pasado: <em>Went</em>
-        .col-lg-2.bgr_10.p-4.d-flex.align-items-center
+        .col-md-10.col-lg-2.bgr_10.p-4.d-flex.align-items-center.justify-content-center.mb-3.mb-lg-0
           .text-center
             p.text-bold <em>Past Participle: Gone</em>
             p Participio pasado: <em>Gone</em>
-        .col-lg-2.bgr_11.p-4.d-flex.align-items-center
+        .col-md-10.col-lg-2.bgr_11.p-4.d-flex.align-items-center.justify-content-center
           .text-center
             p.text-bold <em>Gerund / Present participle: Going</em>
             p Gerundio / Participio presente: <em>Going</em>
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema6/2.png", alt="alt")
       .col-lg-8

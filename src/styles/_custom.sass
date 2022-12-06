@@ -124,11 +124,17 @@
     border: 2px solid #FC5F65
     border-top-left-radius: 20px
     border-bottom-left-radius: 20px
+    @media (max-width: $bp-max-md)
+      border-radius: 20px
+      
   &_10
     background-color: white
     border-right: 2px solid #FC5F65
     border-top: 2px solid #FC5F65
     border-bottom: 2px solid #FC5F65
+    @media (max-width: $bp-max-md)
+      border-radius: 20px
+      border: 2px solid #FC5F65
   &_11
     background-color: white
     border-right: 2px solid #FC5F65
@@ -136,6 +142,9 @@
     border-bottom: 2px solid #FC5F65
     border-top-right-radius: 20px
     border-bottom-right-radius: 20px
+    @media (max-width: $bp-max-md)
+      border-radius: 20px
+      border: 2px solid #FC5F65
 
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
@@ -153,6 +162,11 @@
     background-image: url("../assets/curso/introduccion/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media (max-width: $bp-max-xs)
+      top: -2%
+      height: 79%
+    @media (max-width: 426px)
+      height: 87%
 .bg_grad-02
   position: relative
   .row, p
@@ -166,6 +180,9 @@
     width: calc(100% + 6rem)
     height: calc(100% + 3rem)
     background-color: #FFF7DA
+    @media (max-width: $bp-max-md)
+      height: calc(100% + 5rem)
+      
 .bg_grad-03
   position: relative
   .row
@@ -217,6 +234,8 @@
     background-image: url("../assets/curso/tema1/fondo2.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media (max-width: $bp-max-md)
+      top: -3%
 .bg_grad-06
   position: relative
   .row, p
@@ -230,6 +249,8 @@
     width: calc(100% + 6rem)
     height: calc(100% + 2rem)
     background-color: #FFDFE0
+    @media (max-width: $bp-max-md)
+      top: -3%
 .bg_grad-07
   position: relative
   .row, p
@@ -245,6 +266,8 @@
     background-image: url("../assets/curso/tema1/fondo3.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media (max-width: $bp-max-md)
+      top: -3%
 .bg_grad-08
   position: relative
   .row, p, h4, .tarjeta
@@ -275,6 +298,8 @@
     background-image: url("../assets/curso/tema4/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media (max-width: $bp-max-md)
+      top: -3%
 .bg_grad-10
   position: relative
   .row, p
@@ -303,6 +328,9 @@
     background-image: url("../assets/curso/tema6/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media (max-width: $bp-max-md)
+      top: -3%
+      height: calc(100% + 4rem)
 .bg_grad-12
   position: relative
   .row, p
@@ -318,6 +346,8 @@
     background-image: url("../assets/curso/tema7/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media (max-width: $bp-max-md)
+      top: -4%
 //MARGEN//
 .mgt
   margin-top: 100px
