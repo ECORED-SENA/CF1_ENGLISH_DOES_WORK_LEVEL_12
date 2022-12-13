@@ -358,7 +358,7 @@ export default {
       },
       {
         nombre: 'Lina Marcela Pérez Manchego',
-        cargo: 'Validación audiovisual Y contenido',
+        cargo: 'Validación audiovisual y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

@@ -79,7 +79,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              p Mis padres podrían venir a la reunión.
+              p Mis padres podrían venir a la mañana.
               TarjetaAudio.color-secundario.bgr_2.mb-3(
                 texto="<i>Might</i> I change my business plan this year?"
                 :audio="require('@/assets/componentes/audios/tema3/8.mp3')"
