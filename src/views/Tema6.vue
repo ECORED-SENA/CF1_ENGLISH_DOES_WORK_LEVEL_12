@@ -95,36 +95,37 @@ export default {
         {
           personaje: 'Frank',
           textoIng:
-            '*** in between work activities has helped me a lot these last two months.',
+            '*** <em>in between work activities has helped me a lot these last two months.</em>',
           textoEsp:
             'Hacer ejercicio entre las actividades laborales me ha ayudado mucho estos dos últimos meses.',
           audio: require('@/assets/componentes/audios/tema6/1.mp3'),
-          palabra: 'Exercising',
+          palabra: '<em>Exercising</em>',
         },
         {
           personaje: 'Debby',
           textoIng:
-            'Drinking coffee as you are *** lately won’t help you at all.',
+            '<em>Drinking coffee as you are</em> *** <em>lately won’t help you at all.</em>',
           textoEsp:
             'Tomar café como lo estás haciendo últimamente no te ayudará en absoluto.',
           audio: require('@/assets/componentes/audios/tema6/2.mp3'),
-          palabra: 'doing',
+          palabra: '<em>doing</em>',
         },
         {
           personaje: 'Frank',
-          textoIng: 'Come on, Debby! *** coffee is not that bad!',
+          textoIng:
+            '<em>Come on, Debby!</em> *** <em>coffee is not that bad!</em>',
           textoEsp: '¡Vamos, Debby! ¡Beber café no es tan malo!',
           audio: require('@/assets/componentes/audios/tema6/3.mp3'),
-          palabra: 'Drinking',
+          palabra: '<em>Drinking</em>',
         },
         {
           personaje: 'Debby',
           textoIng:
-            'Anyway, working out won’t help much if you don’t *** your diet.',
+            '<em>Anyway, working out won’t help much if you don’t</em> *** <em>your diet.</em>',
           textoEsp:
             'De todos modos, hacer ejercicio no ayudará mucho si no cambias tu dieta.',
           audio: require('@/assets/componentes/audios/tema6/4.mp3'),
-          palabra: 'change',
+          palabra: '<em>change</em>',
         },
       ],
     },

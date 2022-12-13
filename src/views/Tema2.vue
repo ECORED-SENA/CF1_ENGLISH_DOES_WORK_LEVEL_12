@@ -53,7 +53,7 @@
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-lg-6
                 TarjetaAudio.color-secundario.bgr_2.mb-3(
-                  texto="Nina had seen the whole series before I started watching it"
+                  texto="Nina had seen the whole series before I started watching it."
                   :audio="require('@/assets/componentes/audios/tema2/3.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -183,7 +183,7 @@ export default {
         textoIng:
           '<em>The result in the third conditional is expressed with “would have”, which is just an expression that helps you show something you would have liked to do. There is only one important rule: the verb after “would have” has to be written in the past participle.</em>',
         textoEsp:
-          'El resultado en el tercer condicional se enuncia con "would have", que es solo una expresión que le ayuda a mostrar algo que le hubiera gustado hacer. Solo hay una regla importante: el verbo que sigue a "<em>would have</em>" tiene que escribirse en pasado participio.',
+          'El resultado en el tercer condicional se enuncia con "<em>would have</em>", que es solo una expresión que le ayuda a mostrar algo que le hubiera gustado hacer. Solo hay una regla importante: el verbo que sigue a "<em>would have</em>" tiene que escribirse en pasado participio.',
       },
     ],
     dialogo4: [
@@ -208,33 +208,34 @@ export default {
       dialogo: [
         {
           personaje: 'Harold',
-          textoIng: '*** you have gone to Europe if you had the money?',
+          textoIng:
+            '*** <em>you have gone to Europe if you had the money?</em>',
           textoEsp: '¿Habrías ido a Europa si tuvieras el dinero?',
           audio: require('@/assets/componentes/audios/tema2/8.mp3'),
-          palabra: 'Would',
+          palabra: '<em>Would</em>',
         },
         {
           personaje: 'Norma',
-          textoIng: 'Of course! But it *** too expensive.',
+          textoIng: '<em>Of course! But it</em> *** <em>too expensive.</em>',
           textoEsp: '¡Por supuesto! Pero era demasiado caro.',
           audio: require('@/assets/componentes/audios/tema2/9.mp3'),
-          palabra: 'was',
+          palabra: '<em>was</em>',
         },
         {
           personaje: 'Harold',
           textoIng:
-            'I know, however, if you had *** money last year, you would have had enough money to go.',
+            '<em>I know, however, if you had</em> *** <em>money last year, you would have had enough money to go.</em>',
           textoEsp:
             'Sin embargo, sé que si hubieras ahorrado dinero el año pasado, habrías tenido suficiente dinero para ir.',
           audio: require('@/assets/componentes/audios/tema2/10.mp3'),
-          palabra: 'saved',
+          palabra: '<em>saved</em>',
         },
         {
           personaje: 'Norma',
-          textoIng: 'Yes, I *** too much money on my car.',
+          textoIng: '<em>Yes, I</em> *** <em>too much money on my car.</em>',
           textoEsp: 'Sí, gasté demasiado dinero en mi automóvil.',
           audio: require('@/assets/componentes/audios/tema2/11.mp3'),
-          palabra: 'spent',
+          palabra: '<em>spent</em>',
         },
       ],
     },

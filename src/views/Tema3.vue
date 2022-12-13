@@ -74,7 +74,7 @@
               TraduccionT.color-acento-botones(:dialogo="dialogo5")(data-aos="flip-up") 
             .col-lg-6
               TarjetaAudio.color-secundario.bgr_2.mb-3(
-                texto="My parents <i>might</i> come to the meeting."
+                texto="My parents <i>might</i> come in the morning"
                 :audio="require('@/assets/componentes/audios/tema3/7.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
@@ -252,7 +252,7 @@ export default {
         textoIng:
           '<em>“Can” expresses ability or possibility. It is not conjugated with the third person in simple present tense, and the verbs after CAN are not conjugated either. Let’s see some examples.</em>',
         textoEsp:
-          '“<em>Can</em>” expresa habilidad o posibilidad. No se conjuga con la tercera persona en presente simple, y los verbos que siguen a CAN tampoco se conjugan. Veamos algunos ejemplos.',
+          '“<em>Can</em>” expresa habilidad o posibilidad. No se conjuga con la tercera persona en presente simple, y los verbos que siguen a <em>CAN</em> tampoco se conjugan. Veamos algunos ejemplos.',
       },
     ],
     dialogo3: [
@@ -349,31 +349,32 @@ export default {
       dialogo: [
         {
           personaje: 'Marcos',
-          textoIng: '*** you help me organize these documents?',
+          textoIng: '*** <em>you help me organize these documents?</em>',
           textoEsp: '¿Podrías ayudarme a organizar estos documentos?',
           audio: require('@/assets/componentes/audios/tema3/23.mp3'),
-          palabra: 'Could',
+          palabra: '<em>Could</em>',
         },
         {
           personaje: 'Fanny',
-          textoIng: 'Of course! I *** to finish my report first.',
+          textoIng:
+            '<em>Of course! I</em> *** <em>to finish my report first.</em>',
           textoEsp: 'Por supuesto. Primero tengo que terminar mi informe.',
           audio: require('@/assets/componentes/audios/tema3/24.mp3'),
-          palabra: 'need',
+          palabra: '<em>need</em>',
         },
         {
           personaje: 'Marcos',
-          textoIng: 'Thanks! I *** finish this by tomorrow.',
+          textoIng: '<em>Thanks! I</em> *** <em>finish this by tomorrow.</em>',
           textoEsp: '¡Gracias! Tengo que terminarlo para mañana.',
           audio: require('@/assets/componentes/audios/tema3/25.mp3'),
-          palabra: 'must',
+          palabra: '<em>must</em>',
         },
         {
           personaje: 'Fanny',
-          textoIng: 'Don’t worry, we *** finish it.',
+          textoIng: '<em>Don’t worry, we</em> *** <em>finish it.</em>',
           textoEsp: 'No te preocupes, lo terminaremos.',
           audio: require('@/assets/componentes/audios/tema3/26.mp3'),
-          palabra: 'will',
+          palabra: '<em>will</em>',
         },
       ],
     },

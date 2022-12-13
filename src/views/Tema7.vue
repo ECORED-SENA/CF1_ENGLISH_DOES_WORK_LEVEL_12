@@ -108,38 +108,38 @@ export default {
         {
           personaje: 'Harvey',
           textoIng:
-            'I *** it is a good idea to send our engineers to an updating course next month.',
+            '<em>I</em> *** <em>it is a good idea to send our engineers to an updating course next month.</em>',
           textoEsp:
             'Creo que es una buena idea enviar a nuestros ingenieros a un curso de actualización el próximo mes.',
           audio: require('@/assets/componentes/audios/tema7/4.mp3'),
-          palabra: 'think',
+          palabra: '<em>think</em>',
         },
         {
           personaje: 'Donna',
           textoIng:
-            'I don’t think so. On the ***, they use these courses as free days.',
+            '<em>I don’t think so. On the</em> ***, <em>they use these courses as free days.</em>',
           textoEsp:
             'No lo creo. En general, utilizan estos cursos como días libres.',
           audio: require('@/assets/componentes/audios/tema7/5.mp3'),
-          palabra: 'whole',
+          palabra: '<em>whole</em>',
         },
         {
           personaje: 'Harvey',
           textoIng:
-            'You may be ***, but next month there isn’t much work to do.',
+            '<em>You may be</em> ***, <em>but next month there isn’t much work to do.</em>',
           textoEsp:
             'Puede que tengas razón, pero el mes que viene no hay mucho trabajo que hacer.',
           audio: require('@/assets/componentes/audios/tema7/6.mp3'),
-          palabra: 'right',
+          palabra: '<em>right</em>',
         },
         {
           personaje: 'Donna',
           textoIng:
-            'However, more *** than not, a client asks for some random work',
+            '<em>However, more</em> *** <em>than not, a client asks for some random work</em>',
           textoEsp:
             'Sin embargo, lo más frecuente es que un cliente pida algún trabajo al azar.',
           audio: require('@/assets/componentes/audios/tema7/7.mp3'),
-          palabra: 'often',
+          palabra: '<em>often</em>',
         },
       ],
     },

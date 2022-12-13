@@ -348,6 +348,23 @@
     background-size: cover
     @media (max-width: $bp-max-md)
       top: -4%
+.bg_grad-13
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: -2%
+    left: 16%
+    width: 82%
+    height: calc(100% + 1.5rem)
+    background-color: #FFBFC1
+    @media ( max-width: $bp-max-md )
+      top: 32%
+      left: 6%
+      height: 67%
 //MARGEN//
 .mgt
   margin-top: 100px

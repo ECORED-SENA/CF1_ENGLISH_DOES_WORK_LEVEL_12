@@ -11,7 +11,7 @@
     
     .bg_grad-01
       .row.mb-5
-        .col-lg-8
+        .col-lg-8.mb-3.mb-lg-0
           .tarjeta.bgr.p-4
             p Al hablar de eventos del pasado, se pueden usar diferentes estructuras gramaticales que permiten hablar de diferentes elementos del pasado. En este componente, se trabajará el pasado perfecto y el pasado simple, los cuales se enfocan en mostrar lo eventos del pasado que ocurrieron antes de otro evento del pasado, en el caso del perfecto, y el simple, que habla de eventos que iniciaron y terminaron en el pasado o simplemente de hechos ocurridos una vez en el pasado. Durante el componente, se mostrarán sus estructuras y, además, cuándo no utilizar estos recursos del lenguaje. 
             p Este componente, además, incluye el uso del tercer condicional, un elemento gramatical que permite exponer situaciones que, si hubiesen pasado, se habría reaccionado de cierta forma. Otros temas que son importantes para este componente son los verbos modales. Además, el uso de cláusulas relativas, tipos de pronombres y verbos como sujetos.
@@ -22,7 +22,7 @@
       
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/9_8Or21ki_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-10

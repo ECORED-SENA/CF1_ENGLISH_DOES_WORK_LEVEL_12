@@ -39,7 +39,7 @@
           p.text-center Primera persona del singular.
           p.text-center.text-bold.colr <em>EXAMPLE </em>
           TarjetaAudio.color-secundario.bgr_2.mb-3(
-            texto="I have worked here for years."
+            texto="<i>I</i> have worked here for years."
             :audio="require('@/assets/componentes/audios/tema5/1.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -55,7 +55,7 @@
           p.text-center Segunda persona.
           p.text-center.text-bold.colr <em>EXAMPLE </em>
           TarjetaAudio.color-secundario.bgr_2.mb-3(
-            texto="You looked awesome in that meeting."
+            texto="<i>You</i> looked awesome in that meeting."
             :audio="require('@/assets/componentes/audios/tema5/2.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -71,7 +71,7 @@
           p.text-center Tercera persona del singular femenino.
           p.text-center.text-bold.colr <em>EXAMPLE </em>
           TarjetaAudio.color-secundario.bgr_2.mb-3(
-            texto="She is working really hard on that project."
+            texto="<i>She</i> is working really hard on that project."
             :audio="require('@/assets/componentes/audios/tema5/3.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -87,7 +87,7 @@
           p.text-center Tercera persona del singular masculino.
           p.text-center.text-bold.colr <em>EXAMPLE</em>
           TarjetaAudio.color-secundario.bgr_2.mb-3(
-            texto="He had managed these kinds of situations many times."
+            texto="<i>He</i> had managed these kinds of situations many times."
             :audio="require('@/assets/componentes/audios/tema5/4.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -103,7 +103,7 @@
           p.text-center Tercera persona del singular impersonal.
           p.text-center.text-bold.colr <em>EXAMPLE </em>
           TarjetaAudio.color-secundario.bgr_2.mb-3(
-            texto="It has been difficult to deal with this company."
+            texto="<i>It</i> has been difficult to deal with this company."
             :audio="require('@/assets/componentes/audios/tema5/5.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -119,7 +119,7 @@
           p.text-center Primera persona del plural.
           p.text-center.text-bold.colr <em>EXAMPLE </em>
           TarjetaAudio.color-secundario.bgr_2.mb-3(
-            texto="We work harder in January."
+            texto="<I>We</i> work harder in January."
             :audio="require('@/assets/componentes/audios/tema5/6.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -135,7 +135,7 @@
           p.text-center Tercera persona del plural.
           p.text-center.text-bold.colr <em>EXAMPLE </em>
           TarjetaAudio.color-secundario.bgr_2.mb-3(
-            texto="They bought a new office building."
+            texto="<i>They</i> bought a new office building."
             :audio="require('@/assets/componentes/audios/tema5/7.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -164,7 +164,7 @@
                 p.text-center Primera persona del singular.
                 p.text-center.text-bold.colr <em>EXAMPLE </em>
                 TarjetaAudio.color-secundario.bgr_2.mb-3(
-                  texto="My boss has promoted me three times this year."
+                  texto="My boss has promoted <i>me</i> three times this year."
                   :audio="require('@/assets/componentes/audios/tema5/8.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -180,7 +180,7 @@
                 p.text-center Segunda persona.
                 p.text-center.text-bold.colr <em>EXAMPLE </em>
                 TarjetaAudio.color-secundario.bgr_2.mb-3(
-                  texto="The supervisor called you twice, hurry up!"
+                  texto="The supervisor called <i>you</i> twice, hurry up!"
                   :audio="require('@/assets/componentes/audios/tema5/9.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -196,7 +196,7 @@
                 p.text-center Tercera persona del singular femenino.
                 p.text-center.text-bold.colr <em>EXAMPLE </em>
                 TarjetaAudio.color-secundario.bgr_2.mb-3(
-                  texto="I met her at the last convention. "
+                  texto="I met <i>her</i> at the last convention. "
                   :audio="require('@/assets/componentes/audios/tema5/10.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -212,7 +212,7 @@
                 p.text-center Tercera persona del singular masculino.
                 p.text-center.text-bold.colr <em>EXAMPLE </em>
                 TarjetaAudio.color-secundario.bgr_2.mb-3(
-                  texto="Did you call him for the interview?"
+                  texto="Did you call <i>him</i> for the interview?"
                   :audio="require('@/assets/componentes/audios/tema5/11.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -228,7 +228,7 @@
                 p.text-center Tercera persona del singular impersonal.
                 p.text-center.text-bold.colr <em>EXAMPLE </em>
                 TarjetaAudio.color-secundario.bgr_2.mb-3(
-                  texto="Henry finished the presentation but nobody liked it."
+                  texto="Henry finished the presentation but nobody liked <i>it</i>."
                   :audio="require('@/assets/componentes/audios/tema5/12.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -244,7 +244,7 @@
                 p.text-center Primera persona del plural.
                 p.text-center.text-bold.colr <em>EXAMPLE </em>
                 TarjetaAudio.color-secundario.bgr_2.mb-3(
-                  texto="The boss gave us too many things to do this week."
+                  texto="The boss gave <i>us</i> too many things to do this week."
                   :audio="require('@/assets/componentes/audios/tema5/13.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -260,7 +260,7 @@
                 p.text-center Tercera persona del plural.
                 p.text-center.text-bold.colr <em>EXAMPLE </em>
                 TarjetaAudio.color-secundario.bgr_2.mb-3(
-                  texto="George hired them because they are awesome engineers."
+                  texto="George hired <i>them</i> because they are awesome engineers."
                   :audio="require('@/assets/componentes/audios/tema5/14.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -323,32 +323,35 @@ export default {
       dialogo: [
         {
           personaje: 'Juan',
-          textoIng: 'I texted *** many times before the meeting.',
+          textoIng:
+            '<em>I texted</em> *** <em>many times before the meeting.</em>',
           textoEsp: 'Te mandé muchos mensajes antes de la reunión.',
           audio: require('@/assets/componentes/audios/tema5/15.mp3'),
-          palabra: 'you',
+          palabra: '<em>you</em>',
         },
         {
           personaje: 'Dana',
-          textoIng: 'I was talking to Maria, why didn’t you text *** too?',
+          textoIng:
+            '<em>I was talking to Maria, why didn’t you text</em> *** <em>too</em>?',
           textoEsp:
             'Estaba hablando con María, ¿por qué no le mandaste un mensaje a ella también?',
           audio: require('@/assets/componentes/audios/tema5/16.mp3'),
-          palabra: 'her',
+          palabra: '<em>her</em>',
         },
         {
           personaje: 'Juan',
-          textoIng: 'Marcos told *** that you were at lunch time.',
+          textoIng:
+            '<em>Marcos told</em> *** <em>that you were at lunch time.</em>',
           textoEsp: 'Marcos me dijo que estabas en la hora de almuerzo.',
           audio: require('@/assets/componentes/audios/tema5/17.mp3'),
-          palabra: 'me',
+          palabra: '<em>me</em>',
         },
         {
           personaje: 'Dana',
-          textoIng: 'You know ***, he never knows anything.',
+          textoIng: '<em>You know</em> ***, <em>he never knows anything.</em>',
           textoEsp: 'Ya lo conoces, él nunca sabe nada.',
           audio: require('@/assets/componentes/audios/tema5/18.mp3'),
-          palabra: 'him',
+          palabra: '<em>him</em>',
         },
       ],
     },

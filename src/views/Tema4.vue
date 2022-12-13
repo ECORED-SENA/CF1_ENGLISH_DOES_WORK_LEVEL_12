@@ -16,8 +16,8 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/VjLr-kGeFO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     .row  
       .col-lg-10.d-flex.align-items-center.mb-3.mb-lg-0
         p.colr.mb-0 <em>Now, we keep on understanding the topic, and there are two types of relative clauses that depend on what type of information is provided. They can be defining or non-defining clauses. Let’s see what they refer to: </em>
@@ -365,35 +365,38 @@ export default {
       dialogo: [
         {
           personaje: 'Ana',
-          textoIng: 'Did you read the message *** they sent us?',
+          textoIng:
+            '<em>Did you read the message</em> *** <em>they sent us?</em>',
           textoEsp: '¿Leíste el mensaje que nos enviaron?',
           audio: require('@/assets/componentes/audios/tema4/19.mp3'),
-          palabra: 'that',
+          palabra: '<em>that</em>',
         },
         {
           personaje: 'Joe',
-          textoIng: 'No, at the moment *** I saw the notification I was busy.',
+          textoIng:
+            '<em>No, the moment</em> *** <em>I saw the notification I was busy.</em>',
           textoEsp:
             'No, en el momento en que vi la notificación estaba ocupado.',
           audio: require('@/assets/componentes/audios/tema4/20.mp3'),
-          palabra: 'when',
+          palabra: '<em>when</em>',
         },
         {
           personaje: 'Ana',
           textoIng:
-            'The person *** sent it wants us to have a meeting tomorrow.',
+            '<em>The person</em> *** <em>sent it wants us to have a meeting tomorrow.</em>',
           textoEsp:
             'La persona que lo envió quiere que tengamos una reunión mañana.',
           audio: require('@/assets/componentes/audios/tema4/21.mp3'),
-          palabra: 'who',
+          palabra: '<em>who</em>',
         },
         {
           personaje: 'Joe',
-          textoIng: 'Is he the person *** company is worth 10 billion dollars?',
+          textoIng:
+            '<em>Is he the person</em> *** <em>company is worth 10 billion dollars?</em>',
           textoEsp:
             '¿Es la persona cuya empresa vale 10 mil millones de dólares?',
           audio: require('@/assets/componentes/audios/tema4/22.mp3'),
-          palabra: 'whose',
+          palabra: '<em>whose</em>',
         },
       ],
     },

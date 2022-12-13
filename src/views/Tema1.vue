@@ -49,7 +49,7 @@
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           p.colr <em>In order to write affirmative sentences in the simple past, you need to put the verb in the past form, but there are two types of verbs: <b>regular and irregular verbs</b>.</em>
-          p.mb-0 Para escribir oraciones afirmativas en pasado simple, hay que poner el verbo en pasado, pero hay dos tipos de verbos: los regulares y los irregulares.  
+          p.mb-0 Para escribir oraciones afirmativas en pasado simple, hay que poner el verbo en pasado, pero hay dos tipos de verbos: <b>los regulares y los irregulares.</b>  
     
     span.colr <em>To write affirmative sentences in the simple past, you have to put the verb in the past. Below is a short version of a list of irregular verbs with a link to the full list: </em>
     span.colr_1 / Para escribir oraciones afirmativas en pasado simple, hay que poner el verbo en pasado. A continuación, encontrará una versión corta de una lista de verbos irregulares con el enlace para consultar la lista completa:
@@ -325,7 +325,7 @@
     
     .bg_grad-07
       .row.mb-5
-        .col-lg-3.d-flex.align-items-center
+        .col-lg-3.d-flex.align-items-center.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/18.svg", alt="alt")
         .col-lg-9
@@ -338,7 +338,7 @@
                 figure.d-flex.justify-content-center.mt-3.mb-3
                   img.w-auto(src="@/assets/curso/tema1/19.svg", alt="alt")
                 .row
-                  .col-lg-4
+                  .col-lg-4.mb-3.mb-lg-0
                     figure.d-flex.justify-content-center.mt-3
                       img.w-auto(src="@/assets/curso/tema1/20.svg", alt="alt")
                   .col-lg-7
@@ -363,7 +363,7 @@
                 figure.d-flex.justify-content-center.mt-3.mb-3
                   img.w-auto(src="@/assets/curso/tema1/21.svg", alt="alt")
                 .row
-                  .col-lg-4
+                  .col-lg-4.mb-3.mb-lg-0
                     figure.d-flex.justify-content-center.mt-3
                       img.w-auto(src="@/assets/curso/tema1/22.svg", alt="alt")
                   .col-lg-7
@@ -388,7 +388,7 @@
                 figure.d-flex.justify-content-center.mt-3.mb-3
                   img.w-auto(src="@/assets/curso/tema1/23.svg", alt="alt")
                 .row
-                  .col-lg-4
+                  .col-lg-4.mb-3.mb-lg-0
                     figure.d-flex.justify-content-center.mt-3
                       img.w-auto(src="@/assets/curso/tema1/24.svg", alt="alt")
                   .col-lg-7
@@ -455,9 +455,9 @@ export default {
     dialogo4: [
       {
         textoIng:
-          '<em>Past perfect is a grammar tense used to talk about actions that occurred before another action in the past. There are different ways of using the past perfect apart from the one just mentioned. One of them is the use of past perfect to use the “indirect speech”; besides, it is an important part of the third conditional, because past perfect is the tense used as the condition.<br><br>In order to work with the past perfect, you need to use all the verbs in past participle. Irregular verbs are found in a list, and to turn the regular verbs into the past, you have to use the same rules seen in the past simple tense. Let’s see:</em>',
+          '<em>Past perfect is a grammar tense used to talk about actions that occurred before another action in the past. There are different ways of using the past perfect apart from the one just mentioned. One of them is the use of past perfect to use the “indirect speech”; besides, it is an important part of the third conditional, because past perfect is the tense used as the condition.<br><br>In order to work with the past perfect, you need to use all the verbs in past participle. <b>Irregular verbs are found in a list, and to turn the regular verbs into the past, you have to use the same rules seen in the past simple tense. Let’s see:</b></em>',
         textoEsp:
-          'El pasado perfecto es un tiempo gramatical que se utiliza para hablar de acciones que ocurrieron antes de otra acción en el pasado. Hay diferentes formas de utilizar el pasado perfecto, aparte de la que acabamos de mencionar. Una de ellas es el uso del pasado perfecto para utilizar el "discurso indirecto"; además, es una parte importante del tercer condicional porque el pretérito perfecto es el tiempo que se utiliza como condición.<br><br>Para trabajar con el pasado perfecto, es necesario utilizar todos los verbos en participio pasado. Los verbos irregulares se encuentran en una lista, y para convertir los verbos regulares en pasado, tiene que utilizar las mismas reglas que se vieron en el pasado simple. Veamos:',
+          'El pasado perfecto es un tiempo gramatical que se utiliza para hablar de acciones que ocurrieron antes de otra acción en el pasado. Hay diferentes formas de utilizar el pasado perfecto, aparte de la que acabamos de mencionar. Una de ellas es el uso del pasado perfecto para utilizar el "discurso indirecto"; además, es una parte importante del tercer condicional porque el pretérito perfecto es el tiempo que se utiliza como condición.<br><br>Para trabajar con el pasado perfecto, es necesario utilizar todos los verbos en participio pasado. <b>Los verbos irregulares se encuentran en una lista, y para convertir los verbos regulares en pasado, tiene que utilizar las mismas reglas que se vieron en el pasado simple. Veamos:</b>',
       },
     ],
     dialogo5: [
@@ -490,34 +490,34 @@ export default {
       dialogo: [
         {
           personaje: 'Carla',
-          textoIng: 'Hi, Rick! How *** your meeting?',
+          textoIng: '<em>Hi, Rick! How</em> *** <em>your meeting?</em>',
           textoEsp: '¡Hola, Rick! ¿Cómo estuvo tu reunión?',
           audio: require('@/assets/componentes/audios/tema1/12.mp3'),
-          palabra: 'was',
+          palabra: '<em>was</em>',
         },
         {
           personaje: 'Rick',
           textoIng:
-            'Amazing! I *** the new apps that my team developed last month!',
+            '<em>Amazing! I</em> *** <em>the new apps that my team developed last month!</em>',
           textoEsp:
             '¡Increíble! ¡Presenté las nuevas aplicaciones que mi equipo desarrolló el mes pasado!',
           audio: require('@/assets/componentes/audios/tema1/13.mp3'),
-          palabra: 'presented',
+          palabra: '<em>presented</em>',
         },
         {
           personaje: 'Carla',
-          textoIng: '*** the shareholders like them?',
+          textoIng: '<em>***</em> <em>the shareholders like them?</em>',
           textoEsp: '¿Les gustaron a los accionistas?',
           audio: require('@/assets/componentes/audios/tema1/14.mp3'),
-          palabra: 'Did',
+          palabra: '<em>Did</em>',
         },
         {
           personaje: 'Rick',
           textoIng:
-            'Well, not all of them, but they *** the most important one! ',
+            '<em>Well, not all of them, but they</em> *** <em>the most important one! </em>',
           textoEsp: 'Bueno, no todas, ¡pero la más importante les encantó!',
           audio: require('@/assets/componentes/audios/tema1/15.mp3'),
-          palabra: 'loved',
+          palabra: '<em>loved</em>',
         },
       ],
     },
@@ -535,34 +535,36 @@ export default {
       dialogo: [
         {
           personaje: 'Sharon',
-          textoIng: 'Had you *** the report before I texted you?',
+          textoIng:
+            '<em>Had you</em> *** <em>the report before I texted you?</em>',
           textoEsp:
-            '¿Habías enviado el informe antes de que te enviara el mensaje?',
+            '<em>¿Habías enviado el informe antes de que te enviara el mensaje?',
           audio: require('@/assets/componentes/audios/tema1/22.mp3'),
-          palabra: 'sents',
+          palabra: '<em>sent</em>',
         },
         {
           personaje: 'Anton',
           textoIng:
-            'Yes, I *** even told my boss about it. Sorry, I didn’t know you had to add more information.',
+            '<em>Yes, I</em> *** <em>even told my boss about it. Sorry, I didn’t know you had to add more information.</em>',
           textoEsp:
             'Sí, incluso se lo había dicho a mi jefe. Lo siento, no sabía que había que añadir más información.',
           audio: require('@/assets/componentes/audios/tema1/23.mp3'),
-          palabra: 'had',
+          palabra: '<em>had</em>',
         },
         {
           personaje: 'Sharon',
-          textoIng: 'Luckily, I had *** him.',
+          textoIng: '<em>Luckily, I had</em> *** <em>him.</em>',
           textoEsp: 'Por suerte, le había informado.',
           audio: require('@/assets/componentes/audios/tema1/24.mp3'),
-          palabra: 'informed',
+          palabra: '<em>informed</em>',
         },
         {
           personaje: 'Anton',
-          textoIng: 'You know I had never *** such a mistake.',
+          textoIng:
+            '<em>You know I had never</em> *** <em>such a mistake.</em>',
           textoEsp: 'Sabes que nunca había cometido un error así.',
           audio: require('@/assets/componentes/audios/tema1/25.mp3'),
-          palabra: 'made',
+          palabra: '<em>made</em>',
         },
       ],
     },
