@@ -7,17 +7,17 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] Cras tempus tortor et nisi tincidunt feugiat. Integer lacus ante, venenatis nec fringilla quis, dapibus ut dui. Fusce imperdiet velit a leo sagittis, id scelerisque massa placerat. Duis at dui sed enim euismod pulvinar quis ac ante. Phasellus condimentum sapien nisi, ac facilisis purus tristique ac. Quisque magna est, luctus vitae elit ut, convallis venenatis justo. Nunc pretium elit a nisi tempus sagittis.
+          h2 <em>Would you have chosen another job if you had had the chance?</em> 
+        p.mb-4 Reforzar conocimientos sobre pasado simple y perfecto, expresiones argumentativas, tercer condicional, verbos modales, cláusulas relativas, pronombres y verbos como sujetos. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Selección múltiple
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
