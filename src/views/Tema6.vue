@@ -121,7 +121,7 @@ export default {
         {
           personaje: 'Debby',
           textoIng:
-            '<em>Anyway, working out won’t help much if you don’t</em> *** <em>your diet.</em>',
+            '<em>Anyways, working out won’t help you much if you don’t</em> *** <em>your diet.</em>',
           textoEsp:
             'De todos modos, hacer ejercicio no ayudará mucho si no cambias tu dieta.',
           audio: require('@/assets/componentes/audios/tema6/4.mp3'),
