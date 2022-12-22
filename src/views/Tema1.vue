@@ -68,7 +68,7 @@
             .col-lg-6
               p <em>Download Let us now look at the list of more irregular verbs:</em>
             .col-lg-6
-              a.anexo.bgr(:href="obtenerLink('downloads/anexo2.pdf')" target="_blank")
+              a.anexo.bgr(:href="obtenerLink('downloads/anexo02.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
